@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cake</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/4e202fe7f5.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Paytone One' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Gloria Hallelujah' rel='stylesheet'>
+	<link rel="stylesheet" href="css.css">
+	<link rel="stylesheet" href="./flaticon/flaticon.css">
+</head>
+<body data-spy="scroll" data-target="#scrollspy-nav" data-offset="200">
+	<button onclick="topFunction()" id="gotop" title="Go to top"><i class="fa fa-angle-up"></i></button>
+	<header>
+		<div class="container-fluid topnav">
+			<a href="#home"><img src="images/D.Cake.png" ></a>
+			<div id="myLinks">
+				<a href="#home" class="linkmenu">Home</a>
+				<a href="#about-us" class="linkmenu">About us</a>
+				<a href="#cake-menu" class="linkmenu">Menu</a>
+				<a href="#prices" class="linkmenu">Prices</a>
+				<a href="#gallery" class="linkmenu">Gallery</a>
+				<a href="#team" class="linkmenu">Team</a>
+				<a href="#contact" class="linkmenu">Contact</a>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+		<div class="home" id="home">
+			<div id="myCarousel" class="carousel" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="carousel-detail">
+							<img src="images/slide-down1.png" class="slide-down">
+						</div>
+						<img class="d-block w-100" src="images/slide3.jpg" alt="slide1" loading="lazy">
+					</div>
+					<div class="carousel-item">
+						<div class="carousel-detail">
+							<img src="images/slide-down3.png" class="slide-down">
+						</div>
+						<img class="d-block w-100" src="images/slide4.jpg" alt="slide2" loading="lazy">
+					</div>
+					<div class="carousel-item">
+						<div class="carousel-detail">
+							<img src="images/slide-down2.png" class="slide-down">
+						</div>
+						<img class="d-block w-100" src="images/slide2.jpg"alt="slide3" loading="lazy" >
+					</div>
+
+				</div>
+				<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>		
+			</div>
+			<nav id="scrollspy-nav" class="navbar fixed-top">
+				<div class=" container-fluid nav">
+					<div class="logo">
+						<a href="">
+							<img src="images/D.Cake.png" >
+						</a>
+					</div>
+					<div class="menu" id="navbar-example">
+						<ul class="nav nav-tabs" role="tablist" style="list-style-type: none;">
+							<li class="home"><a href="#home">Home</a></li>
+							<li class="dropdown" class="about-us">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="about-us">About us <b class="caret"></b></a>
+								<ul class="dropdown-menu pt-0 pb-0">
+									<li><a href="#about-us">Our story</a></li>
+									<li><a href="#feedback">Feedback</a></li>
+								</ul>
+							</li>
+							<li class="service"> <a href="#services">Services</a></li>
+							<li class="cake-menu">  <a href="#cake-menu">Menu</a></li>
+							<li class="prices"> <a href="#prices" >Prices</a></li>
+							<li class="gallery"><a href="#gallery" >Gallery</a></li>
+							
+							<li class="team"><a href="#team">Team</a></li>
+							<li class="contact"><a href="#contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>	
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section class="offer tab-active">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 offer-col">
+						<h4>Offer of the week</h4>
+						<p>Throughout the week, D.cake will  offer delicious wedding cakes, cupcakes, cookies, fresh roasted coffee and custom cakes for every occasion! Choose one from our menu or create your own bespoke masterpiece! Fresh from D.cake Shop, customised for you.
+						</p>
+						<a href="#menu" class="btn btn-5">
+							<div class="btn-line"></div>
+							<div class="btn-line2"></div>
+						Check our menu</a> 
+					</div>
+					<div class="col-md-6">
+						<img src="images/offer.png" class="img-offer">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="about-us" id="about-us">
+			<h2>ABOUT US</h2>
+			<span class="decor-line"> </span>
+			<div class="container" style="padding-bottom: 70px;">
+				<h3 class="about-title">Baking Delicious cakes since 1980</h3>
+				<p>
+					<span id="d-cake">D.cake</span> was found by four bakers in 1980 in Vietnam, and became a great success soon after. One of the bakers had a daughter named Duyen and the rest of the bakers were happy to name the business the D.cake.	
+				</p>
+				<p>
+					Over the years determination to adhering to the incredible cake and pastry recipes brought by these bakers was the key in D.cake's grand success. The four bakers compiled all their best recipes in one single book. Today, the very old and mostly hand written recipe book is kept at D.cake in Vietnam. Although the pages are partially torn and discolored, it still functions as “the go to book” when there is any doubt among the young bakers and cake artists.
+				</p>
+				<p>
+					We are proud to offer our baked goods using many of same recipes from 100 years ago atVictoria Bakery & Café. All products are handmade right in the bakery, and we bake seven days a week.
+				</p>
+				<p>
+					We are determined to continue to follow the recipes and techniques closely, despite the fact that it takes us longer to make our products using the traditional ingredients and methods. You, our loyal customers know and taste the difference in real butter, quality flour, finest chocolate, handpicked fruits and premium dairy products along with the best coffee we could find.
+				</p>
+				<p>
+					The mission of D.cake is never to give in to less than ideal and offer the finest products and services to our customers. As a team, we take pride in the quality we present and cherishing our customers’ trust and loyalty in us.
+				</p>
+
+				<div class="reasons">
+					<div class="row mt-5" >
+						<div class="col-md-4 col-icon">
+							<i class="flaticon-electric-mixer icon" ></i>
+							<h5>MAKE WITH LOVE</h5>
+						</div>
+						<div class="col-md-4 col-icon">
+							<i class="flaticon-gingerbread icon" ></i>
+							<h5>SEASONAL PASTRIES</h5>
+						</div>
+						<div class="col-md-4 col-icon">
+							<i class="flaticon-food-5 icon"></i>
+							<h5>EVENT CATERING</h5>
+						</div>
+					</div>
+					<div class="row" >
+						<div class="col-md-4 col-icon">
+							<i class="flaticon-wheat icon"></i>
+							<h5>GLUTEN FREE OPTIONS</h5>
+						</div>
+						<div class="col-md-4 col-icon">
+							<i class="flaticon-food-12 icon"></i>
+							<h5>100% HOMEMADE</h5>
+						</div>
+						<div class="col-md-4 col-icon">
+							<i class="flaticon-wheat icon"></i>
+							<h5>VEGAN OPTIONS</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="client" id="feedback">
+				<img src="images/cake3.png" class="cake3 hidden-sm hidden-xs">
+				<img src="images/cherry.png" class="cherry">
+				<h2 style="color: white; padding-top: 45px;">WHAT OUR CLIENTS SAY</h2>
+				<span class="decor-line" style="background-color: white; color: white;"> </span>
+				<div class="slideshow-container " style="padding-top: 35px; margin-top: 30px;     height: 228px;">
+
+					<img src="images/cake1.png" class="cake1">
+					<div class="container">
+						<div class="mySlides">
+							<q>Everyone is so pleasant ! Delicious cookies and delicious coffee ground the way I like it. Thank you!</q>
+							<p class="author">- Susan B.</p>
+						</div>
+						<div class="mySlides">
+							<q>I really appreciated the enthusiasm that the sales person showed for my occasion. She was very helpful and enthusiastic.</q>
+							<p class="author">- Lisa R.</p>
+						</div>
+						<div class="mySlides">
+							<q>Fantastic experience from order to pick up! Everyone loved the Princess cake! Thank you!</q>
+							<p class="author">- Chase M.</p>
+						</div>
+						<div class="mySlides">
+							<q>I just had the princess cake from <b>D.cake</b> and it changed my life. It is literally a ray of light in these dark times. I think about it even when I'm not eating it.</q>
+							<p class="author">- Astrid S.</p>
+						</div>
+						<div class="mySlides">
+							<q>Absolutely fantastic cake, efficient and courteous service - a total thumbs-up 👍</q>
+							<p class="author">-Emily K.</p>
+						</div>
+					</div>
+					<a class="prev" onclick="plusSlides(-1)">❮</a>
+					<a class="next" onclick="plusSlides(1)">❯</a>
+				</div>
+
+				<div class="dot-container">
+					<span class="dot" onclick="currentSlide(1)"></span> 
+					<span class="dot" onclick="currentSlide(2)"></span> 
+					<span class="dot" onclick="currentSlide(3)"></span> 
+					<span class="dot" onclick="currentSlide(4)"></span> 
+					<span class="dot" onclick="currentSlide(5)"></span> 
+				</div>
+			</div>
+		</section>
+		<section class="services" id="services">
+			<div class="container">
+				<h2>OUR SERVICES</h2>
+				<span class="decor-line"> </span>
+				<div class="row">
+					<div class="col-md-4 col mt-5">
+						<img src="images/healthy.jpg" class="circle-img">
+						<div class="info">
+							<h5>Healthy Option</h5>
+							<p>
+								We can ensure you that no matter what your favourite desserts may be, there will always be a Superyummy way to tweak it to make a more nourishing and body-loving version of it.
+							</p>
+							<a href="" class="btn btn-5">
+								<div class="btn-line"></div>
+								<div class="btn-line2"></div>
+								More
+							</a> 
+						</div>
+					</div>
+
+					<div class="col-12 col-md-4 col mt-5">
+						<img src="images/event.jpg" class="circle-img">
+						<div class="info">
+							<h5>Corporate Events</h5>
+							<p>
+								We can make impressive and delicious cakes for your organisation for any occasion, including product launches, anniversaries, team building events, retirements, and much more.
+							</p>
+							<a href="" class="btn btn-5">
+								<div class="btn-line"></div>
+								<div class="btn-line2"></div>
+								More
+							</a> 
+						</div>
+					</div>
+
+					<div class="col-12 col-md-4 col mt-5">
+						<img src="images/pastries.jpg" class="circle-img">
+						<div class="info">
+							<h5>Pastries</h5>
+							<p>
+								Our pastries are baked fresh daily in our Revent oven. We have a wide variety of pastries from the sweet to the savory, from classic Italian favorites to our very own modern creations.
+							</p>
+							<a href="" class="btn btn-5">
+								<div class="btn-line"></div>
+								<div class="btn-line2"></div>
+								More
+							</a> 
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-4 col mt-5">
+						<img src="images/birthday.jpg" class="circle-img">
+						<div class="info">
+							<h5>Birthday</h5>
+							<p>
+								Whatever you’re looking for we have it, whether that’s a child's birthday cake a women's birthday cake, a men's birthday cake, a number cake or your own creation!
+							</p>
+							<a href="" class="btn btn-5">
+								<div class="btn-line"></div>
+								<div class="btn-line2"></div>
+								More
+							</a> 
+						</div>
+					</div>
+
+					<div class="col-12 col-md-4 col mt-5">
+						<img src="images/custom.jpg" class="circle-img">
+						<div class="info">
+							<h5>Custom Cake</h5>
+							<p>
+								We create exceptional wedding and special event cakes that embody your individual personality and tastes. Our bakers enjoy working with you to create a cake that is both beautiful and delicious. 
+							</p>
+							<a href="" class="btn btn-5">
+								<div class="btn-line"></div>
+								<div class="btn-line2"></div>
+								More
+							</a> 
+						</div>
+					</div>
+
+					<div class="col-12 col-md-4 col mt-5">
+						<img src="images/wedding.jpg" class="circle-img">
+						<div class="info">
+							<h5>Wedding</h5>
+							<p>
+								Your special day deserves a very special cake! Choose one of our ready-to-order designs or arrange a consultation to create a completely bespoke wedding cake. See our gallery for inspiration.
+							</p>
+							<a href="" class="btn btn-5">
+								<div class="btn-line"></div>
+								<div class="btn-line2"></div>
+								More
+							</a> 
+						</div>
+					</div>
+				</div>
+			</div>			
+		</section>
+		<section class="cake-menu" id="cake-menu">
+			<h2>OUR MENU</h2>
+			<span class="decor-line"> </span>
+			<div class="container container-cake-menu pb-5">
+				<div class="variable">
+					<a class="type active-color" data-value="tab-1" href="#1" >Cakes</a>
+					<a href="#2"  data-value="tab-2" class="type">Pastries</a> 
+					<a href="#3" data-value="tab-3" class="type">Sweets</a>
+				</div>
+				<div class="tab">
+					<div class="tab-1 tab-active" style="display: none;">
+						<h3>Cake & Pies</h3>
+						<div class="container tab-container">
+							<div class="row">
+
+								<div class="col-md-6">
+									<div class="cake-picture">
+										<img src="images/menu1.jpg" id="forest-cake">
+										<p id="forest-famous">Our famous Forest Cake</p>
+									</div>
+
+									<div class="cakes-menu">
+										<div class="cake-menu-item">
+											<div class="item-name">Chocolate Cake</div>
+											<div class="item-price">$5.5</div>
+											<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+										</div>
+										<div class="cake-menu-item">
+											<div class="item-name">Homemade Apple Pie</div>
+											<div class="item-price">$7</div>
+											<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+										</div>
+										<div class="cake-menu-item">
+											<div class="item-name">Special Cake</div>
+											<div class="item-price">$12</div>
+											<div class="item-info">$5.5</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 cake-left-item">
+									<div class="cake-menu-item">
+										<div class="item-name">CheeseCake</div>
+										<div class="item-price">$5.5</div>
+										<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+									</div>
+									<div class="cake-menu-item">
+										<div class="item-name">Vanilla Cake</div>
+										<div class="item-price">$5.5</div>
+										<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+									</div>
+									<div class="cake-menu-item">
+										<div class="item-name">Forest Cake</div>
+										<div class="item-price">$11</div>
+										<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+									</div>
+									<div class="cake-menu-item">
+										<div class="item-name">Boston Cream Pie</div>
+										<div class="item-price">$7</div>
+										<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+									</div>
+									<div class="cake-menu-item">
+										<div class="item-name">Brownie</div>
+										<div class="item-price">$4</div>
+										<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+									</div>
+									<div class="cake-menu-item">
+										<div class="item-name">Butter Cake</div>
+										<div class="item-price">$11</div>
+										<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-2" style="display:none;">
+						<h3>Pastries</h3>
+						<div class="container tab-container">
+							<div class="row">
+
+								<div class="col-md-6">
+									<div class="cake-picture">
+										<img src="images/menu2.jpg" id="forest-cake">
+										<p id="forest-famous">Delicious Pastries</p>
+									</div>
+
+									<div class="cakes-menu">
+										<div class="cake-menu-item">
+											<div class="item-name">Chocolate Cake</div>
+											<div class="item-price">$5.5</div>
+											<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+										</div>
+										<div class="cake-menu-item">
+											<div class="item-name">Chocolate Cake</div>
+											<div class="item-price">$5.5</div>
+											<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+										</div>
+										<div class="cake-menu-item">
+											<div class="item-name">Chocolate Cake</div>
+											<div class="item-price">$5.5</div>
+											<div class="item-info">$5.5</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 cake-left-item">
+									<div class="cake-menu-item">
+										<div class="item-name">Chocolate Cake</div>
+										<div class="item-price">$5.5</div>
+										<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+									</div>
+									<div class="cake-menu-item">
+										<div class="item-name">Chocolate Cake</div>
+										<div class="item-price">$5.5</div>
+										<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+									</div>
+									<div class="cake-menu-item">
+										<div class="item-name">Chocolate Cake</div>
+										<div class="item-price">$5.5</div>
+										<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+									</div>
+									<div class="cake-menu-item">
+										<div class="item-name">Chocolate Cake</div>
+										<div class="item-price">$5.5</div>
+										<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+									</div>
+									<div class="cake-menu-item">
+										<div class="item-name">Chocolate Cake</div>
+										<div class="item-price">$5.5</div>
+										<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+									</div>
+									<div class="cake-menu-item">
+										<div class="item-name">Chocolate Cake</div>
+										<div class="item-price">$5.5</div>
+										<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-3" style="display:none;">
+						<h3>Sweets</h3>
+						<div class="container tab-container">
+							<div class="row">
+
+								<div class="col-md-6">
+									<div class="cake-picture">
+										<img src="images/menu3.jpg" id="forest-cake">
+										<p id="forest-famous">Chocolate Truffles</p>
+									</div>
+
+									<div class="cakes-menu">
+										<div class="cake-menu-item">
+											<div class="item-name">Chocolate Cake</div>
+											<div class="item-price">$5.5</div>
+											<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+										</div>
+										<div class="cake-menu-item">
+											<div class="item-name">Chocolate Cake</div>
+											<div class="item-price">$5.5</div>
+											<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+										</div>
+										<div class="cake-menu-item">
+											<div class="item-name">Chocolate Cake</div>
+											<div class="item-price">$5.5</div>
+											<div class="item-info">$5.5</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 cake-left-item">
+									<div class="cake-menu-item">
+										<div class="item-name">Chocolate Cake</div>
+										<div class="item-price">$5.5</div>
+										<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+									</div>
+									<div class="cake-menu-item">
+										<div class="item-name">Chocolate Cake</div>
+										<div class="item-price">$5.5</div>
+										<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+									</div>
+									<div class="cake-menu-item">
+										<div class="item-name">Chocolate Cake</div>
+										<div class="item-price">$5.5</div>
+										<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+									</div>
+									<div class="cake-menu-item">
+										<div class="item-name">Chocolate Cake</div>
+										<div class="item-price">$5.5</div>
+										<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+									</div>
+									<div class="cake-menu-item">
+										<div class="item-name">Chocolate Cake</div>
+										<div class="item-price">$5.5</div>
+										<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+									</div>
+									<div class="cake-menu-item">
+										<div class="item-name">Chocolate Cake</div>
+										<div class="item-price">$5.5</div>
+										<div class="item-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="moreCake mb-5">
+			<div class="container-fluid moreCake-desktop">
+				<div class="row">
+					<div class=" col-md-6 p-0">
+						<img src="images/100-cake.jpg" class="cake-more">
+					</div>
+					<div class="col-md-6 p-0 mt-5 moreCake-right">
+						<h3 class="moreCake-title">100 cakes to choose</h3>
+						<p style="color: white; font-size: 18px;">Cakes are special. Every birthday, every celebration ends with something sweet, a cake, and people remember. It's all about the memories</p>
+						<a href="" class="btn btn-5 ml-2 mt-3 pt-3 pb-3">
+							<div class="btn-line"></div>
+							<div class="btn-line2"></div>
+						Send us a message</a> 
+					</div>
+				</div>		
+			</div>
+		</div>
+		<section class="prices" id="prices">
+			<img src="images/cake2.png" class="icecream">
+			<h2>OUR PRICE</h2>
+			<span class="decor-line"> </span>
+			<div class="price-info">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-price" id="col-left">
+							<div class="prices-info"> 
+								<h5>BASIC EVENT</h5>
+								<span id="price">$100</span>
+								<ul style="list-style-type: none;">
+									<li><b>20</b> Pastries</li>						
+									<li><b>2</b>Cakes</li>
+									<li><b>30</b>Cupcakes</li>
+									<li>Perfect for Small Events</li>
+									<li>Serves up to 20 people</li>
+									<a href="" class="btn btn-5">
+										<div class="btn-line"></div>
+										<div class="btn-line2"></div>
+										Contact
+									</a> 
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4 col-price" id="col-middle">
+							<div class="prices-info"> 
+								<h5>MEDIUM EVENT</h5>
+								<span id="price">$250</span>
+								<ul style="list-style-type: none;">
+									<li><b>50</b> Pastries</li>
+									<li><b>6</b>Cakes</li>
+									<li><b>70</b>Cupcakes</li>
+									<li>Perfect for Medium Events</li>
+									<li>Serves up to 50 people</li>
+									<a href="" class="btn btn-5">
+										<div class="btn-line"></div>
+										<div class="btn-line2"></div>
+										Contact
+									</a> 
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4 col-price" id="col-right">
+							<div class="prices-info"> 
+								<h5>MEGA EVENT</h5>
+								<span id="price">$550</span>
+								<ul style="list-style-type: none;">
+									<li><b>100</b> Pastries</li>
+									<li><b>10</b>Cakes</li>
+									<li><b>130</b>Cupcakes</li>
+									<li>Perfect for Large Events</li>
+									<li>Serves up to 100  people</li>
+									<a href="" class="btn btn-5">
+										<div class="btn-line"></div>
+										<div class="btn-line2"></div>
+										Contact
+									</a> 
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="gallery" id="gallery">
+			<h2>OUR GALLERY</h2>
+			<span class="decor-line" pb-5> </span>
+			<div class="lightbox pt-5">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="photo">
+							<img src="images/gallery1.jpg"/>
+							<span class="overlay"></span>
+						</div>
+						<div class="photo"><img src="images/gallery4.jpg"/>
+							<span class="overlay"></span>
+						</div>
+						<div class="photo"><img src="images/gallery8.jpg"/>
+							<span class="overlay"></span>
+						</div>
+						<div class="photo"><img src="images/gallery10.jpg"/>
+							<span class="overlay"></span>
+						</div>
+						<div class="photo"><img src="images/gallery12.jpg"/>
+							<span class="overlay"></span>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="photo"><img src="images/gallery2.jpg"/>
+							<span class="overlay"></span>
+						</div>
+						<div class="photo"><img src="images/gallery6.jpg"/>
+							<span class="overlay"></span>
+						</div>
+						<div class="photo"><img src="images/gallery9.jpg"/>
+							<span class="overlay"></span>
+						</div>
+						<div class="photo"><img src="images/gallery13.jpg"/>
+							<span class="overlay"></span>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="photo"><img src="images/gallery3.jpg"/>
+							<span class="overlay"></span>
+						</div>
+						<div class="photo"><img src="images/gallery5.jpg"/>
+							<span class="overlay"></span>
+						</div>
+						<div class="photo"><img src="images/gallery7.jpg"/>
+							<span class="overlay"></span>
+						</div>
+						<div class="photo"><img src="images/gallery11.jpg"/>
+							<span class="overlay"></span>
+						</div>
+					</div> 	 	
+				</div>
+			</div>
+		</section>
+		<section class="team" id="team">
+			<h2>OUR TEAM</h2>
+			<span class="decor-line" pb-5> </span>
+			<div class="container mt-5">
+				<div class="row mb-5" >
+					<div class="col-12 col-md-4">
+						<div class="our-team-main">
+							<div class="team-front">
+								<img src="images/team5.jpg">								
+							</div>
+							<div class="team-back"> 
+								<h3>MAI DUYEN</h3>
+								<b>FOUNDER & OWNER & BAKER</b>
+								<p> Duyen studied ID and worked in various account management and research positions prior becoming a baker after training in Bellbird bakery and lots of self-study.
+								She loves to research and develop new recipes.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="our-team-main">
+							<div class="team-front"> <img src="images/team1.jpg"/>
+							</div>
+							<div class="team-back"> 
+								<h3>DAVID</h3>
+								<b>HEAD BAKER</b>
+								<p> David trained and worked at international bakery in Vietnam gaining experience in bread making, cake decorating, and pastry production.</p>
+								<p>He goes fishing, but we are yet to see a fish he caught, and he likes heavy-oaky red wines. </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="our-team-main">
+							<div class="team-front">
+								<img src="images/team4.jpg"/>		
+							</div>
+							<div class="team-back">
+								<h3>NIHARIKA</h3>
+								<b>SENIOR CHEF INSTRUCTOR</b>
+								<p>Dane, despite being a bloke, can do about 15 things at once.
+								You could catch a glimpse of him in Sumner bakery working 100 miles an hour while giving instructions to an  apprentice and also answering a customer's question while watching over everything else around.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-12 col-md-4">
+						<div class="our-team-main">
+							<div class="team-front">
+								<img src="images/team2.jpg">								
+							</div>
+							<div class="team-back"> 
+								<h3>LIZ HUTTER</h3>
+								<b>CHEF INSTRUCTOR</b>
+								<p> Chef Liz has worn many hats at D'cake. She is instrumental to the development and implementation of our Pastry Arts Employment Training Program as well as our menu and program operations.</p> 
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="our-team-main">
+							<div class="team-front"> <img src="images/team3.jpg"/>
+							</div>
+							<div class="team-back"> 
+								<h3>DEAN ANDERSON</h3>
+								<b>SENIOR CHEF INSTRUCTOR</b>
+								<p>Dane, despite being a beaker, can do about 15 things at once.
+								You could catch a glimpse of him in D.cake working 100 miles an hour while giving instructions to an  apprentice and also answering a customer's question while watching over everything else around.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="our-team-main">
+							<div class="team-front">
+								<img src="images/team6.jpg"/>		
+							</div>
+							<div class="team-back">
+								<h3>MICHAEL BOOTH</h3>
+								<b>BAKER ASSISTANT</b> 
+								<p>Michael completed an apprenticeship at a local bakery making all manner of baked goods and confectionary before moving to D.cake to concentrate his considerable talents on bread.Michael enjoys the 'relaxed atmosphere' of working at the Bakery and takes great pride in creating 'a world class product'.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contact" id="contact">
+			<div class="container">	
+				<div class="row">
+					<div class="col-12 col-md-7 " style="text-align: center;">
+						<h2>CONTACT US</h2>
+						<span class="decor-line" pb-5> </span>
+						<h4 class="mt-5 mb-5">Get in touch with us</h4>
+						<div>
+							<ul class="contact-info " style="list-style-type:none; text-align:center;line-height: 30px;">
+								<li><i class="fa fa-map-marker"></i>ĐHQT Miền Đông</li>
+								<li><i class="fa fa-phone"></i>+84 334387518</li>
+								<li>
+									<i class="fa fa-envelope"></i><a href="mailto:email@company.com">duyen.nguyen.set18@eiu.edu.vn</a> 
+								</li>
+							</ul>
+							<form style="text-align: left; margin-top: 40px;">
+								<div class="form-floating 4">
+									<input type="text" class="form-control" id="floatingInput" placeholder="Name">
+								</div>
+								<div class="form-floating">
+									<input type="email" class="form-control" id="floatingEmail" placeholder="Email">
+								</div>
+								<div class="form-floating">
+									<input type="text" class="form-control" id=" " placeholder="Subject">
+								</div>
+								<div class="form-floating">
+									<textarea class="form-control" placeholder="Enter your message" id="floatingTextarea2" style="height: 100px"></textarea>
+								</div>
+								<a href="#" class="btn btn-5" style="color: white;">
+									<div class="btn-line"></div>
+									<div class="btn-line2"></div>
+								Send message</a> 
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>	
+	<footer  style="background-color: #c694ce;">
+		<div class="container pt-5">
+			<a href="#"><img src="images/D.cake.png" alt="" class="logo-center "width="200px"></a>
+			<div class="social-icon">
+				<a href="#" title=""><i class="fa fa-twitter"></i></a>
+				<a href="#" title=""><i class="fa fa-facebook"></i></a>
+				<a href="#" title=""><i class="fa fa-linkedin"></i></a>
+				<a href="#" title=""><i class="fa fa-pinterest"></i></a>
+				<a href="#" title=""><i class="fa fa-instagram"></i></a>
+			</div>
+			<div class="row mt-5" style="color: white;">
+				<div class="col-md-6 text-right footer-about">
+					<h6>ABOUT US</h6>
+					<p>An Old World tradition since 1980.</p>
+					<p> From Vietnam to America to you.</p>
+				</div>
+				<div class="col-md-6">
+					<h6>OPENING HOURS:</h6>
+					<p class="above">Monday to Friday	7 a.m. to 7 p.m.</p>
+					<p>Weekends / Holidays	Closed</p>
+				</div>
+				<div class="col-12 mt-3" style="text-align: center;">
+					Copyright © 2021 - D.cake. All Rights Reserved.
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.6.0.slim.js"integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$('.type').on('click',function(){
+			let curtab = $(this).attr('data-value');
+			var tabs = $('.type');
+			for(tab of tabs){
+				if($(tab).attr('data-value')==curtab){
+					$('.'+ $(tab).attr('data-value')).addClass('tab-active');
+					$(tab).addClass('active-color');
+				}else{
+					$('.'+ $(tab).attr('data-value')).removeClass('tab-active');	
+					$(tab).removeClass('active-color');
+				}
+			}
+		})
+		const sections=document.querySelectorAll('section');
+		const navLi =document.querySelectorAll('nav .container ul li');
+		window.addEventListener('scroll',()=>{
+			let current='';
+			sections.forEach(section=>{
+				const sectionTop=section.offsetTop;
+				const sectionHeight=section.clientHeight;
+				if(pageYOffset>sectionTop){
+					current=section.getAttribute('id');
+				}
+			})
+			navLi.forEach(li=>{
+				li.classList.remove('active');
+				if(li.classList.contains('current')){
+					li.classList.add('active');
+				}
+			})
+		})
+	</script>
+	<script type="text/javascript">
+		var mybutton = document.getElementById("gotop");
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
+			}
+		}
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+	<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+		function showSlides(n) {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			if (n > slides.length) {
+				slideIndex = 1;
+			}    
+			if (n < 1) {
+				slideIndex = slides.length;
+			}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";  
+			dots[slideIndex-1].className += " active";
+		}
+	</script>
+	<script type="text/javascript">
+		function myFunction() {
+			var x = document.getElementById("myLinks");
+			if (x.style.display === "block") {
+				x.style.display = "none";
+			} else {
+				x.style.display = "block";
+			}
+		}
+	</script>
+</body>
+</html>
